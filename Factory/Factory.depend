@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1498034138 source:/home/adla/Desktop/DesignPatterns/Factory/main.cpp
+	<iostream>
+	<string>
+
