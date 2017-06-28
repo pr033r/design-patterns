@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1498650015 source:/home/adla/Desktop/DesignPatterns/Flyweight/main.cpp
+	<iostream>
+	<string>
+	<random>
+
