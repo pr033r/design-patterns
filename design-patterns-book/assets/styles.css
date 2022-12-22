@@ -1,0 +1,72 @@
+html {
+    background-color: #eee;
+}
+
+#container {
+    font-family: Cantarell;
+    width: 50%;
+    padding: 15px 50px;
+    margin: 0 auto;
+    background-color: #666;
+    color: rgb(250, 250, 250);
+}
+
+#background {
+    width: 50%;
+    height: 250px;
+    background: url("profile_background_smaller.jpg") no-repeat;
+    padding: 15px 50px;
+    margin: 0 auto;
+    background-size: 100%;
+}
+
+header > p > a {
+    color: rgb(250, 250, 250);
+}
+
+header > p > a:active {
+    color: rgb(250, 250, 250);
+}
+
+header > p > a:hover {
+    color: rgb(250, 250, 250);
+}
+
+header > p > a:visited {
+    color: rgb(250, 250, 250);
+}
+
+header > p > a:link {
+    color: rgb(250, 250, 250);
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    font-weight: bold;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+section {
+    border-bottom: 2px solid grey;
+}
+
+section > h2 {
+    color: orange;
+}
+
+footer {
+    font-size: small;
+    margin-top: 60px;
+    color: #aaa;
+}
+
+footer > a {
+    color: #aaa;
+}
