@@ -1,5 +1,7 @@
 ## Design Patterns - book from Rudolf Pecinovsky
 
+[!](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+
 All the content is based on great and perfect explaining book :open_book: [Navrhove Vzory](https://www.databazeknih.cz/knihy/navrhove-vzory-10930).
 I highly recommend to buy and read this book if you want to get more skills in the programming.
 
