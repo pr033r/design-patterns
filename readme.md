@@ -3,6 +3,8 @@
 [![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/docs/handbook/2/basic-types.html)
 [![](https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=WebStorm&logoColor=white)](https://www.jetbrains.com/webstorm)
 [![](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/adam.lasak.10/)
+[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-lasak/)
+
 
 All the content is based on great and perfect explaining book :open_book: [Navrhove Vzory](https://www.databazeknih.cz/knihy/navrhove-vzory-10930).
 I highly recommend to buy and read this book if you want to get more skills in the programming.
