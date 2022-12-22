@@ -16,7 +16,7 @@ run also on the Backend as well as Frontend environment. More and more employers
 for JavaScript/TypeScript developers, so I think it's a good choice why I've selected the TS.
 
 To compile all TypeScript files run
-``tsc`` command and all translated code will be stored in the ``/build`` folder. If you want to
+``npx tsc`` command and all translated code will be stored in the ``/build`` folder. If you want to
 configure the TypeScript settings, go to the ``tsconfig.json`` file.
 
 Every design-pattern has own directory and all the action can be run from the **index.html** where's 

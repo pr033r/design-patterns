@@ -2,7 +2,7 @@ abstract class APerson {
     private static index: number = 0;
 
     public static getPerson() {
-        switch (this.index % 3) {
+        switch (this.index++ % 3) {
             case 0: return new this.LazyGuy();
             case 1: return new this.WorkingGuy();
             case 2: return new this.FreshGuy();
@@ -73,11 +73,10 @@ abstract class APerson {
     public static test(): void {
         for (let i: number = 1; i <= 3; i++) {
             const person: APerson = APerson.getPerson();
-            console.log(typeof person);
-            console.log(person.alarm());
-            console.log(person.sleep());
-            console.log(person.freeTime());
-            console.log(person.work());
+            person.alarm();
+            person.work();
+            person.freeTime();
+            person.sleep();
         }
     }
 }
