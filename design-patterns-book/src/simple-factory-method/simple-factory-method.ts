@@ -1,5 +1,5 @@
 abstract class APerson {
-    private static index: number = 0;
+    private static index = 0;
 
     public static getPerson() {
         switch (this.index++ % 3) {
@@ -71,7 +71,7 @@ abstract class APerson {
     }
 
     public static test(): void {
-        for (let i: number = 1; i <= 3; i++) {
+        for (let i = 1; i <= 3; i++) {
             const person: APerson = APerson.getPerson();
             person.alarm();
             person.work();

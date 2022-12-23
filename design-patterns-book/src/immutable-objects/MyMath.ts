@@ -1,12 +1,6 @@
 export class MyMath {
 
     /*
-    * Trida nema verejny konstruktor -> neni mozne vytvaret jeji instance
-    * */
-    private constructor() {
-    }
-
-    /*
     * Vrati nejvestiho spolecneho delitele dvou zadanych cisel.
     * Vracene cislo je vzdy kladne nezavisle na znamenku parametru.
     * */
