@@ -15,6 +15,11 @@ b.push(4) // Error
 import {MyMath} from "./MyMath";
 
 /*
+* Pouzivani immutable muze zabranit problemum v budoucnu. Radeji nastavit objekty jako
+* readable (final v Jave) a pak vracet nove instance (nevyhoda znovu vytvareni pameti
+* na Heapu - ale vesmes to umi uz prekladace optimalizovat) nez pak mit problemy
+* s "uniky" dat, protoze nas objekt byl mutovany nekde jinde.
+*
 * Trida zlomek (Fraction) definuje zlomky a potrebne operace, aby se zlomky bylo mozno
 * pocitat obdobne jako s cisly. Definuje proto operace pro scitani, odcitani, nasobeni
 * a deleni dvou zlomku a zlomku a cisla, jakoz i operace pro prevod celeho cisla na
