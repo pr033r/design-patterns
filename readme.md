@@ -21,7 +21,9 @@ To compile all TypeScript files run
 ``npx tsc`` command and all translated code will be stored in the ``/build`` folder. If you want to
 configure the TypeScript settings, go to the ``tsconfig.json`` file.
 
-The project has also set up [ESLint](https://eslint.org/) for finding potential errors and warnings in all ``*.ts``files. To run the ESLint, use ``npx eslint ./src/**`` command. All ESLint settings are stored in the ``.eslintrc.json`` file.
+The project has also set up [ESLint](https://eslint.org/) for finding potential errors and warnings in all ``*.ts`` files. To run the ESLint, use ``npx eslint ./src/**`` command. All ESLint settings are stored in the ``.eslintrc.json`` file.
+ - linter was installed through the ``npm i --save-deev eslint``
+ - to create a new config file, type ``npm init @eslint/config``
 
 Every design-pattern has own directory and all the action can be run from the **index.html** where's 
 the particular *action-button*. Output is mostly written in the output console so don't forget 
