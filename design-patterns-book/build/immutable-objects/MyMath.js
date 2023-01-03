@@ -3,11 +3,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.MyMath = void 0;
 class MyMath {
     /*
-    * Trida nema verejny konstruktor -> neni mozne vytvaret jeji instance
-    * */
-    constructor() {
-    }
-    /*
     * Vrati nejvestiho spolecneho delitele dvou zadanych cisel.
     * Vracene cislo je vzdy kladne nezavisle na znamenku parametru.
     * */

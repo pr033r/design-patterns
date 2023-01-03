@@ -7,6 +7,7 @@
 
     <script src="./build/simple-factory-method/simple-factory-method.js"></script>
     <script src="./build/immutable-objects/immutable-objects.js"></script>
+    <script src="./build/crate/crate.js"></script>
 </head>
 <body>
 <div id="background">
@@ -52,7 +53,16 @@
 
     <section>
         <h2>Immutable Objects</h2>
-        <button onclick="APerson.test()">Try it!</button>
+        <p>
+            Basically, if you don't need to use mutable object, use immutable instead. In TS it's typically
+            <b>readonly</b> keyword. Same principle is for <b>const</b> - using it as much as possible if you don't
+            need to use <b>let</b>.
+        </p>
+    </section>
+
+    <section>
+        <h2>Crate - "Messenger"</h2>
+        <button onclick="DailyPlan.test()">Try it!</button>
         <p>
             See the output in the console.
         </p>

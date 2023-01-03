@@ -1,7 +1,8 @@
 {
   "include": [
     "src/simple-factory-method/**/*.ts",
-    "src/immutable-objects/**/*.ts"
+    "src/immutable-objects/**/*.ts",
+    "src/crate/**/*.ts"
   ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
