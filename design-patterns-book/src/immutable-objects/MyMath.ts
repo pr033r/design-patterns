@@ -1,3 +1,10 @@
+/*
+  MyMath je zaroven KNIHOVNI TRIDOU (Library Class) - navrhovy vzor tridy, kde jsou seskupene
+  staticke metody, ktere maji dohromady neco spolecneho. V Jave, nebo .NET byla trida jeste
+  oznacena jako 'final' nebo 'sealed' aby nebyla moznost vytvorit potomka tridy.
+  Navic by jeste musel byt definovany private construktor bez parametru a tela ABY NEBYLO MOZNE
+  VYTVORIT INSTANCI
+* */
 export class MyMath {
 
   /*
