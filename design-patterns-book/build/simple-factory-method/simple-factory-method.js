@@ -2,10 +2,14 @@
 class APerson {
     static getPerson() {
         switch (this.index++ % 3) {
-            case 0: return new this.LazyGuy();
-            case 1: return new this.WorkingGuy();
-            case 2: return new this.FreshGuy();
-            default: throw new Error('Wrongly defined max number');
+            case 0:
+                return new this.LazyGuy();
+            case 1:
+                return new this.WorkingGuy();
+            case 2:
+                return new this.FreshGuy();
+            default:
+                throw new Error('Wrongly defined max number');
         }
     }
     static test() {
