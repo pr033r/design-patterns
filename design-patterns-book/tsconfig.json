@@ -3,7 +3,8 @@
     "src/simple-factory-method/**/*.ts",
     "src/immutable-objects/**/*.ts",
     "src/crate/**/*.ts",
-    "src/servant/**/*.ts"
+    "src/servant/**/*.ts",
+    "src/singleton/**/*.ts"
   ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */

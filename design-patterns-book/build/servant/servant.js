@@ -78,3 +78,26 @@ class Position {
         this.yPosition = yPosition;
     }
 }
+class Servant {
+    static test() {
+        const trianglePosition = new Position(1, 1);
+        const ellipsePosition = new Position(1, 10);
+        const rectanglePosition = new Position(1, 20);
+        const servant = new MoveServant();
+        const t = new Triangle(trianglePosition);
+        const e = new Ellipse(ellipsePosition);
+        const r = new Rectangle(rectanglePosition);
+        Servant.printPositions(t, e, r);
+        console.log('\tTriangle, Ellipse and Rectangle classes has no methods for positioning them. If do, ' +
+            'all would share the same logic - it shall be moved to an external class. Let\'s use the SERVANT!');
+        servant.moveTo(t, new Position(10, 1));
+        servant.moveBy(e, 2, -5);
+        servant.moveTo(r, new Position(1, 1));
+        Servant.printPositions(t, e, r);
+    }
+    static printPositions(t, e, r) {
+        console.log(`Triangle at position [x: ${t.getPosition().xPosition} ; y: ${t.getPosition().yPosition}]`);
+        console.log(`Ellipse at position [x: ${e.getPosition().xPosition} ; y: ${e.getPosition().yPosition}]`);
+        console.log(`Rectangle at position [x: ${r.getPosition().xPosition} ; y: ${r.getPosition().yPosition}]`);
+    }
+}
