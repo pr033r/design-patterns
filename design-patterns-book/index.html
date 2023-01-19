@@ -10,6 +10,7 @@
     <script src="./build/crate/crate.js"></script>
     <script src="./build/servant/servant.js"></script>
     <script src="./build/singleton/lazy-singleton.js"></script>
+    <script src="./build/singleton/inherited-singleton.js"></script>
 </head>
 <body>
 <div id="background">
@@ -57,7 +58,7 @@
         <h2>Immutable Objects</h2>
         <p>
             Basically, if you don't need to use mutable object, use immutable instead. In TS it's typically
-            <b>readonly</b> keyword. Same principle is for <b>const</b> - using it as much as possible if you don't
+            <span class="code">readonly</span> keyword. Same principle is for <b>const</b> - using it as much as possible if you don't
             need to use <b>let</b>.
         </p>
     </section>
@@ -80,7 +81,7 @@
 
     <section>
         <h2>Singleton</h2>
-        <button onclick="LazySingleton.test()">Try it!</button>
+        <button onclick="LazySingleton.test(); Labyrinth.test()">Try it!</button>
         <p>
             See the output in the console. Logs are for LazySingleton - where we're creating an instance
             only if we need it (first call of <span class="code">getInstance()</span>).

@@ -6,6 +6,7 @@
 * need it at all in the program). Then we'll use lazy singleton. It's also
 * useful for cases where creating the instance has performance issues. So we'll
 * create it, only when we need it.
+* Lazy Singleton works only for one thread application.
 * */
 class LazySingleton {
     // private for preventing crating a new instance
