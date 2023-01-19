@@ -9,6 +9,7 @@
     <script src="./build/immutable-objects/immutable-objects.js"></script>
     <script src="./build/crate/crate.js"></script>
     <script src="./build/servant/servant.js"></script>
+    <script src="./build/singleton/lazy-singleton.js"></script>
 </head>
 <body>
 <div id="background">
@@ -77,8 +78,17 @@
         </p>
     </section>
 
+    <section>
+        <h2>Singleton</h2>
+        <button onclick="LazySingleton.test()">Try it!</button>
+        <p>
+            See the output in the console. Logs are for LazySingleton - where we're creating an instance
+            only if we need it (first call of <span class="code">getInstance()</span>).
+        </p>
+    </section>
+
     <footer>
-        Copyright &copy; 2022-2023 | Created by <a href="lasak.netlify.app" target="_blank">Adam Lasak</a>
+        Copyright &copy; 2022-2023 | Created by <a href="https://www.lasak.netlify.app" target="_blank">Adam Lasak</a>
     </footer>
 </div>
 </body>
